@@ -1,0 +1,284 @@
+@import url("https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400;0,600;1,400&family=Oswald:wght@400;600&family=Poppins:wght@400;600&display=swap");
+
+html {
+  scroll-behavior: smooth;
+}
+body {
+  font-size: 15px;
+  font-family: Poppins, sans-serif;
+  background-color: #f9f6ee;
+  padding: 0;
+  margin: 0;
+}
+
+.container {
+  width: 80%;
+  margin: auto;
+  overflow: hidden;
+}
+
+#logo {
+  float: left;
+  width: 50px;
+  margin-right: 10px;
+
+  display: inline;
+}
+header {
+  background: rgb(230, 139, 192);
+  color: #fff;
+  padding-top: 30px;
+  min-height: 10vh;
+}
+header a {
+  color: azure;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 16px;
+}
+header ul {
+  margin: 0;
+  padding: 0;
+}
+
+header li {
+  padding: 15px 20px;
+  display: inline;
+  float: left;
+}
+header li:hover {
+  background-color: pink;
+  border-radius: 2px;
+  transition-duration: 0.6s;
+  transition: ease-in;
+}
+header nav {
+  float: right;
+  margin-top: 10px;
+}
+.highlight {
+  color: #fcf8fa;
+}
+
+header .current a {
+  color: #554040;
+  font-weight: 600;
+}
+
+header #fashion h1 {
+  margin: 0;
+  font-family: Oswald;
+}
+
+header #fashion {
+  float: left;
+  width: 30%;
+  text-transform: uppercase;
+  font-style: italic;
+}
+section {
+  background: #da7ab2;
+}
+section {
+  text-align: center;
+  height: 100%;
+  padding: 65px 0px;
+  min-height: 40vh;
+}
+
+section h2 {
+  margin-bottom: 50px;
+}
+section h2 span {
+  padding: 10px 55px;
+  border-radius: 20px;
+
+  color: #fff;
+  background: #120f5e;
+  /* fallback for old browsers */
+  background: linear-gradient(to right, #d6b0c6, #d47cba);
+  /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+.carousel-cell {
+  width: 50%;
+  margin-right: 10px;
+  counter-increment: carousel-cell;
+  line-height: normal;
+}
+.carousel-cell img {
+  max-width: 50%;
+}
+button {
+  padding: 15px 30px;
+  font-size: 1rem;
+  font-weight: 600;
+  border: none;
+  color: plum;
+  background: #bcdb09;
+  border-radius: 50px;
+  cursor: pointer;
+  line-height: 1.5em;
+  margin: 40px;
+}
+button:hover {
+  background: #96557d;
+  transition: ease-in-out 0.2s;
+  color: aqua;
+  border: 1px solid aqua;
+}
+
+.text {
+  position: relative;
+  text-align: center;
+}
+.acessories {
+  position: absolute;
+  top: 30%;
+  left: 50%;
+  font-size: xx-large;
+  transform: translate(-50%, -50%);
+  color: rgb(223, 126, 192);
+}
+.statement {
+  position: absolute;
+  top: 40%;
+  left: 30%;
+  color: #f6f5fa;
+  font-size: large;
+}
+
+#newsletter {
+  color: rgb(234, 240, 243);
+  height: 100px;
+
+  background: rgb(62, 61, 61);
+  background: linear-gradient(
+    90deg,
+    rgb(204, 124, 187) 38%,
+    rgb(231, 107, 221) 60%
+  );
+  /*  margin-top: 20px;*/
+}
+
+.news1 {
+  text-align: left;
+  top: 30%;
+  left: 30%;
+}
+.news {
+  text-align: left;
+  top: 70%;
+  left: 20%;
+  font-size: x-large;
+  font-weight: 100;
+}
+
+#newsletter form {
+  float: right;
+  margin-top: 15px;
+}
+
+#newsletter input[type="email"] {
+  height: 25px;
+  width: 250px;
+  border: none;
+  padding: 4px;
+}
+
+#newsletter button:hover {
+  background: #d6ff0a;
+  color: #000;
+  transition: 0.2s;
+}
+footer {
+  padding: 70px;
+  margin-top: 100px;
+  color: #fff;
+  text-align: center;
+  background: rgb(231, 85, 212);
+  background: linear-gradient(
+    90deg,
+    rgb(204, 124, 187) 38%,
+    rgb(231, 107, 221) 60%
+  );
+
+  clip-path: polygon(29% 0, 100% 22%, 100% 100%, 0 100%, 0 20%);
+}
+footer a {
+  font-weight: bold;
+  text-decoration: none;
+  color: #f1c863;
+  font-size: 30px;
+}
+.navbar {
+  background-color: rgb(226, 145, 202);
+  overflow: hidden;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
+
+/* Style the links inside the navigation bar */
+.navbar a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 15px;
+}
+
+/* Change the color of links on hover */
+.navbar a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+/* Add a color to the active/current link */
+.navbar a.active {
+  background-color: #c41abb;
+  color: white;
+}
+
+footer a:hover {
+  color: #2892cf94;
+}
+
+.social {
+  margin: 0;
+  padding: 0;
+}
+
+.social li {
+  display: inline;
+  padding: 0 5px;
+}
+
+article#main-col {
+  float: left;
+  width: 60%;
+  text-align: justify;
+}
+
+article#sidebar {
+  float: right;
+  width: 30%;
+  text-align: justify;
+  /* margin: 10px; */
+}
+
+.dark {
+  padding: 15px;
+  background-color: #1f1f1f;
+  color: #fff;
+  padding-bottom: 40px;
+  margin: 10px 0px;
+}
+
+#banner {
+  margin-top: 70px;
+  padding: 10px;
+  background: var(--secondary-color);
+  text-align: center;
+}
