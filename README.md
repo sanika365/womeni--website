@@ -1,2 +1,2 @@
 # womeni--website
-this is web devlopement project for showcase of my skiils
+This is e-commerse websites user interface for showcase of my skiils
